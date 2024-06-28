@@ -121,7 +121,7 @@ export default function Messages () {
                                 className="relative ml-3 text-sm bg-white py-2 px-4 shadow rounded-xl"
                                 >
                                 <div>
-                                    I'm a Full Stack Engineer looking for opportunities to work in a team and build world class product.
+                                    I&apos;m a Full Stack Engineer looking for opportunities to work in a team and build world class product.
                                 </div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@ export default function Messages () {
                                 <div
                                 className="relative mr-3 text-sm bg-orange-100 py-2 px-4 shadow rounded-xl"
                                 >
-                                <div>I'm ok what about you?</div>
+                                <div>I&apos;m ok what about you?</div>
                                 </div>
                             </div>
                             </div>
@@ -151,7 +151,7 @@ export default function Messages () {
                                 className="relative mr-3 text-sm bg-orange-100 py-2 px-4 shadow rounded-xl"
                                 >
                                 <div>
-                                    Let's have a word with you over a meeting by 5:30 PM today.
+                                    Let&apos;s have a word with you over a meeting by 5:30 PM today.
                                 </div>
                                 </div>
                             </div>
