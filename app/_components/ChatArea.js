@@ -85,8 +85,8 @@ function ChatArea() {
             <div className="relative w-full">
             <input
                 type="text"
-                className="flex w-full border-2 rounded-xl focus:outline-none border-orange-400 pl-4 h-10 hover:bg-gray-100 animate"
-                placeholder="Type your message..."
+                className="flex w-full border-2 rounded-xl focus:outline-none border-orange-400 py-2 pl-4 h-10 hover:bg-gray-100 animate"
+                placeholder="Type..."
             />
             <button className="absolute flex items-center justify-center h-full w-12 right-0 top-0 text-gray-600 hover:text-gray-800">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

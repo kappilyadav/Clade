@@ -16,7 +16,7 @@ export default function Layout({ children }) {
 
   return (
     <>
-      <div id="subheader" className="fixed z-10 mt-32 md:mt-24 flex items-center justify-center md:justify-normal gap-x-12 px-20 w-full border-b border-gray-300 bg-white">
+      <div id="subheader" className="fixed z-10 mt-32 md:mt-24 flex items-center justify-center md:justify-normal gap-6 md:gap-12 px-20 w-full border-b border-gray-300 bg-white">
         {navItems.map((item) => (
           <button
             key={item.path}
