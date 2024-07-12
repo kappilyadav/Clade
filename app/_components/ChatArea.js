@@ -15,7 +15,7 @@ import { IoCallOutline, IoChevronDown, IoCloseOutline, IoDocumentTextOutline } f
 function ChatArea() {
   return (
     <div id="message-area" className="relative col-span-4 sm:col-span-3 flex flex-col h-full overflow-x-hidden overflow-y-auto border-r border-gray-300">
-        <div id='message-topbar' className="bg-white fixed flex items-center justify-between py-3 px-10 border-b border-r border-gray-300 w-4/5 sm:w-3/5 z-10">
+        <div id='message-topbar' className="bg-white fixed flex items-center justify-between py-3 px-4 sm:px-10 border-b border-r border-gray-300 w-4/5 sm:w-3/5 z-10">
         <div className="flex gap-4 items-center justify-center">
             <div className="h-10 w-10">
                 <UserAvatar height={48} width={48} />
@@ -38,7 +38,7 @@ function ChatArea() {
         {/* </div> */}
         </div>
 
-        <div className="flex flex-col flex-auto h-full px-10 py-28"> {/* Add pt-20 to account for the fixed topbar height */}
+        <div className="flex flex-col flex-auto h-full px-4 sm:px-10 py-28"> {/* Add pt-20 to account for the fixed topbar height */}
         <TextMessageReceived
             userName="Kapil Yadav"
             messagesArray={[
