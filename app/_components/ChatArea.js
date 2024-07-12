@@ -67,7 +67,8 @@ function ChatArea() {
             userName="Kapil Yadav"
             messagesArray={[
             "Let's have a word with you over a meeting by 5:30 PM today.",
-            "Prior to that I'm providing you a UI task to complete before the meeting."
+            "Prior to that I'm providing you a UI task to complete before the meeting.",
+            "https://www.figma.com/design/1PsDL6m6lgnCK9Fs6x1fUX/Job-preview-dashboard?node-id=0-1&t=BJHbP5c7XvExFaPL-0"
             ]}
             time="10:16 AM"
         />
