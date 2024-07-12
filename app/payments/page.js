@@ -1,7 +1,7 @@
 
 export default function Payments () {
     return (
-        <section className="pt-36 pb-14 relative">
+        <div className="pt-36 pb-14 relative">
             <div className="w-full max-w-7xl px-4 md:px-5 lg-6 mx-auto">
                 <h2 className="font-bold text-4xl leading-10 text-black text-center">
                     Payments Summary
@@ -152,6 +152,6 @@ export default function Payments () {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

@@ -9,11 +9,11 @@ export default function Home() {
 
   return (
     <main className="flex text-black bg-white min-h-screen flex-col items-center overflow-hidden">
-      <div id="subheader" className="mt-24 flex items-center gap-x-12 px-20 w-full border-b border-gray-300 bg-white">
+      <div id="subheader" className="mt-32 md:mt-24 flex items-center gap-6 md:gap-12 px-20 justify-center md:justify-normal w-full border-b border-gray-300 bg-white">
         <button className="text-orange-600 font-bold py-4 border-b-2 border-orange-600">Job preview</button>
         <button className="text-gray-700 py-4">Applicants</button>
         <button className="text-gray-700 py-4">Match</button>
-        <button className="text-gray-700 py-4">Messages</button>
+        <button onClick={() => push('/job/messages')} className="text-gray-700 py-4">Messages</button>
       </div>
 
       <div id="content" className="grid grid-cols-12 w-full">
