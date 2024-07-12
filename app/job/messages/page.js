@@ -24,7 +24,7 @@ export default function Messages() {
 
   return (
     <div className="pt-36 flex h-screen text-gray-800">
-      <div className="grid grid-cols-5 h-full overflow-hidden mt-16 sm:mt-12 md:mt-3">
+      <div className="grid grid-cols-5 h-full overflow-hidden mt-14 sm:mt-12 md:mt-3">
 
         {/* Left Sidebar */}
         <LeftSidebar />
