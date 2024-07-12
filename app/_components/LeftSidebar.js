@@ -15,6 +15,10 @@ function LeftSidebar() {
                 <p className="border border-primary bg-orange-50 rounded-full text-[9px] text-primary font-semibold px-1 cursor-pointer">Blocked</p>
             </div>
 
+            <div className="flex sm:hidden items-center justify-center h-16 bg-primary">
+              <p className="text-center text-white font-semibold">Chats</p>
+            </div>
+
             <UserChat userName="Harsh" userAvatar="H" messageCount={0} messageTime="01:31" isSelected={false} />
             <UserChat userName="Kapil" messageCount={2} messageTime="12:11" isSelected={true} />
             <UserChat userName="Parik" userAvatar="P" messageCount={0} messageTime="yesterday" isSelected={false} />

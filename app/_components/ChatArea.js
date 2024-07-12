@@ -87,7 +87,7 @@ function ChatArea() {
         />
 
         {/* using for the bottom fixed button */}
-        <div className="pb-28"></div>
+        <div className="pb-36"></div>
         </div>
 
         {/* type message button */}
