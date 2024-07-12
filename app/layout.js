@@ -33,30 +33,30 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <nav id="header" className="fixed z-10 w-full">
           <div className="flex flex-wrap justify-center md:justify-between items-center px-10 h-32 md:h-24 w-full border-b border-gray-300 bg-white">
-            <a href="/" className="flex text-center gap-2 text-orange-600 text-base font-semibold">
+            <a href="/" className="flex text-center gap-2 text-primary text-base font-semibold">
               {/* <svg className="size-8" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="512" cy="512" r="512" style={{fill:'#ff4a00'}}/>
                 <path d="M576 512.11a153.09 153.09 0 0 1-9.83 54 153.19 153.19 0 0 1-54.06 9.89h-.22a153.18 153.18 0 0 1-54-9.83 153.16 153.16 0 0 1-9.89-54.06v-.22a153.33 153.33 0 0 1 9.83-54 153.14 153.14 0 0 1 54.06-9.89h.22a153.08 153.08 0 0 1 54.06 9.84 153.07 153.07 0 0 1 9.83 54v.22zm188.44-42.78H615l105.67-105.66A257.2 257.2 0 0 0 693 331a257.4 257.4 0 0 0-32.67-27.63L554.67 409V259.56a257.63 257.63 0 0 0-42.53-3.56h-.27a257.63 257.63 0 0 0-42.53 3.56V409L363.67 303.33A257.34 257.34 0 0 0 331 331a257.23 257.23 0 0 0-27.62 32.65L409 469.33H259.56S256 497.4 256 511.91v.18a257.69 257.69 0 0 0 3.56 42.58H409L303.33 660.33a257.46 257.46 0 0 0 60.34 60.34L469.33 615v149.44a257.73 257.73 0 0 0 42.49 3.56h.37a257.85 257.85 0 0 0 42.48-3.56V615l105.66 105.67A257.34 257.34 0 0 0 693 693a257.52 257.52 0 0 0 27.64-32.67L615 554.67h149.44a257.73 257.73 0 0 0 3.56-42.49v-.37a257.84 257.84 0 0 0-3.56-42.48z" style={{fill: '#fff'}}/>
               </svg> */}
-              <p className="text-orange-600 text-3xl font-bold">Hiry</p>
+              <p className="text-primary text-3xl font-bold">Hiry</p>
             </a>
             <div className="flex items-center gap-8 border border-gray-300 rounded-full p-2">
-              <button onClick={() => push('/')} className={`flex items-center text-gray-500 gap-x-1 text-sm p-2 ${(pathname === '/' || pathname.split('/')[1] === 'job') && 'bg-orange-600 border-2 border-orange-300 rounded-full text-white'}`}>
+              <button onClick={() => push('/')} className={`flex items-center text-gray-500 gap-x-1 text-sm p-2 ${(pathname === '/' || pathname.split('/')[1] === 'job') && 'bg-primary border-2 border-orange-300 rounded-full text-white'}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
                 </svg>
                 Jobs
               </button>
-              <button onClick={() => push('/messages')} className={`flex items-center text-gray-500 text-sm gap-x-1 p-2 ${pathname === '/messages' && 'bg-orange-600 border-2 border-orange-300 rounded-full text-white'}`}>
+              <button onClick={() => push('/messages')} className={`flex items-center text-gray-500 text-sm gap-x-1 p-2 ${pathname === '/messages' && 'bg-primary border-2 border-orange-300 rounded-full text-white'}`}>
                 <div className="relative">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
                   </svg>
-                  <div className={`absolute top-0 right-0 h-2 w-2 rounded-full bg-orange-600 ${pathname === '/messages' && 'bg-white'}`}></div>
+                  <div className={`absolute top-0 right-0 h-2 w-2 rounded-full bg-primary ${pathname === '/messages' && 'bg-white'}`}></div>
                 </div>
                 Messages
               </button>
-              <button onClick={() => push('/payments')} className={`flex items-center text-gray-500 text-sm gap-x-1 p-2 ${pathname === '/payments' && 'bg-orange-600 border-2 border-orange-300 rounded-full text-white'}`}>
+              <button onClick={() => push('/payments')} className={`flex items-center text-gray-500 text-sm gap-x-1 p-2 ${pathname === '/payments' && 'bg-primary border-2 border-orange-300 rounded-full text-white'}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
                 </svg>
@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
                 </svg>
-                <div className="absolute top-0 right-1 h-2 w-2 rounded-full bg-orange-600"></div>
+                <div className="absolute top-0 right-1 h-2 w-2 rounded-full bg-primary"></div>
               </button>
               <span className="flex items-center text-gray-800 gap-x-1">
                 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" className="size-7">

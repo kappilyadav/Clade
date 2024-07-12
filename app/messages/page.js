@@ -129,7 +129,7 @@ export default function Messages () {
                             <div className="col-start-6 col-end-13 p-3 rounded-lg">
                             <div className="flex items-center justify-start flex-row-reverse">
                                 <div
-                                className="flex items-center justify-center h-10 w-10 rounded-full bg-orange-600 text-white flex-shrink-0"
+                                className="flex items-center justify-center h-10 w-10 rounded-full bg-primary text-white flex-shrink-0"
                                 >
                                 Y
                                 </div>
@@ -143,7 +143,7 @@ export default function Messages () {
                             <div className="col-start-6 col-end-13 p-3 rounded-lg">
                             <div className="flex items-center justify-start flex-row-reverse">
                                 <div
-                                className="flex items-center justify-center h-10 w-10 rounded-full bg-orange-600 text-white flex-shrink-0"
+                                className="flex items-center justify-center h-10 w-10 rounded-full bg-primary text-white flex-shrink-0"
                                 >
                                 Y
                                 </div>
@@ -184,7 +184,7 @@ export default function Messages () {
                                 >
                                 <div className="flex flex-row items-center">
                                     <button
-                                    className="flex items-center justify-center bg-orange-600 text-white hover:bg-orange-700 rounded-full h-8 w-10"
+                                    className="flex items-center justify-center bg-primary text-white hover:bg-orange-700 rounded-full h-8 w-10"
                                     >
                                     <svg
                                         className="w-6 h-6 text-white"
@@ -297,7 +297,7 @@ export default function Messages () {
                         </div>
                         </div>
                         <div className="ml-4">
-                        <button className="flex items-center justify-center bg-orange-600 hover:bg-orange-700 rounded-xl text-white px-4 py-1 flex-shrink-0">
+                        <button className="flex items-center justify-center bg-primary hover:bg-orange-700 rounded-xl text-white px-4 py-1 flex-shrink-0">
                             <span>Send</span>
                             <span className="ml-2">
                             <svg

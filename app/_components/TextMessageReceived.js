@@ -2,15 +2,15 @@ import React from 'react'
 
 function TextMessageReceived({ isSent, messagesArray, userName, time }) {
   return (
-    <div className="mb-4">
+    <div className="mb-4 w-2/3">
       {messagesArray.map((message, index) => (
-        <div key={index} className="text-sm bg-slate-100 w-fit rounded-t-2xl rounded-r-2xl py-4 px-6 mb-3 hover:bg-slate-200 animate">
-            <p className='font-medium text-gray-600'>{message}</p>
+        <div key={index} className="text-sm bg-slate-100 w-fit rounded-t-2xl rounded-r-2xl py-2 px-4 mb-2 hover:bg-slate-200 animate">
+            <p className='text-sm text-gray-600 leading-relaxed'>{message}</p>
         </div>
       ))}
-      <div className="flex gap-4">
-          <p className="font-bold text-sm mb-3">{userName}</p>
-          <p className="text-sm mb-3 text-gray-400">{time}</p>
+      <div className="flex items-center gap-3">
+          <p className="font-semibold text-xs mb-3">{userName}</p>
+          <p className="text-xs mb-3 text-gray-400">{time}</p>
       </div>
     </div>
   )

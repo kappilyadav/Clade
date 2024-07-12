@@ -9,7 +9,7 @@ function UserAvatar({ height, width }) {
         <Image
             src={Avatar}
             alt="Avatar"
-            className="h-full w-full rounded-full overflow-hidden border-2 border-gray-300"
+            className="h-full w-full rounded-full overflow-hidden"
             height={height} width={width}
         />
     </div>

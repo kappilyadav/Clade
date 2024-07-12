@@ -12,10 +12,10 @@ export default function Payments () {
                     <div
                         className="flex flex-col lg:flex-row lg:items-center justify-between px-6 pb-6 border-b border-gray-200">
                         <div className="data max-lg:text-center">
-                            <p className="font-semibold text-sm leading-7 text-black">Transaction id:<span className="text-orange-600 text-sm font-medium"> #10234987</span></p>
+                            <p className="font-semibold text-sm leading-7 text-black">Transaction id:<span className="text-primary text-sm font-medium"> #10234987</span></p>
                             <p className="font-semibold text-sm leading-7 text-black mt-4">Date of payment:<span className="text-gray-400 text-sm font-medium"> 28th June 2024</span></p>
                         </div>
-                        <button className="flex items-center justify-center gap-x-2 bg-orange-100 text-orange-600 text-sm border border-orange-600 rounded-md px-6 py-2 max-lg:mt-4">
+                        <button className="flex items-center justify-center gap-x-2 bg-orange-100 text-primary text-sm border border-primary rounded-md px-6 py-2 max-lg:mt-4">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
                             </svg>
@@ -52,7 +52,7 @@ export default function Payments () {
                                         <div className="col-span-5 lg:col-span-1 flex items-center max-lg:justify-center max-lg:mt-3">
                                             <div className="flex gap-3 lg:block">
                                                 <p className="font-medium text-sm leading-7 text-black">Price</p>
-                                                <p className="lg:mt-4 font-medium text-sm leading-7 text-orange-600">$100</p>
+                                                <p className="lg:mt-4 font-medium text-sm leading-7 text-primary">$100</p>
                                             </div>
                                         </div>
                                         <div className="col-span-5 lg:col-span-2 flex items-center max-lg:justify-center max-lg:mt-3">
@@ -76,7 +76,7 @@ export default function Payments () {
                         <div className="flex w-full flex-col sm:flex-row items-center max-lg:justify-center max-lg:border-b border-gray-200">
                             <p className="font-medium text-sm text-gray-900 py-3 max-lg:text-center">Paid using Credit Card <span className="text-gray-500">ending with 4312</span></p>
                         </div>
-                        <p className="font-semibold text-sm text-nowrap text-black py-6">Total Price: <span className="text-orange-600"> $100.00</span></p>
+                        <p className="font-semibold text-sm text-nowrap text-black py-6">Total Price: <span className="text-primary"> $100.00</span></p>
                     </div>
                 </div>
 
@@ -84,10 +84,10 @@ export default function Payments () {
                     <div
                         className="flex flex-col lg:flex-row lg:items-center justify-between px-6 pb-6 border-b border-gray-200">
                         <div className="data max-lg:text-center">
-                            <p className="font-semibold text-sm leading-7 text-black">Transaction id:<span className="text-orange-600 text-sm font-medium"> #10232386</span></p>
+                            <p className="font-semibold text-sm leading-7 text-black">Transaction id:<span className="text-primary text-sm font-medium"> #10232386</span></p>
                             <p className="font-semibold text-sm leading-7 text-black mt-4">Date of payment:<span className="text-gray-400 text-sm font-medium"> 28th May 2024</span></p>
                         </div>
-                        <button className="flex items-center justify-center gap-x-2 bg-orange-100 text-orange-600 text-sm border border-orange-600 rounded-md px-6 py-2 max-lg:mt-4">
+                        <button className="flex items-center justify-center gap-x-2 bg-orange-100 text-primary text-sm border border-primary rounded-md px-6 py-2 max-lg:mt-4">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
                             </svg>
@@ -124,7 +124,7 @@ export default function Payments () {
                                         <div className="col-span-5 lg:col-span-1 flex items-center max-lg:justify-center max-lg:mt-3">
                                             <div className="flex gap-3 lg:block">
                                                 <p className="font-medium text-sm leading-7 text-black">Price</p>
-                                                <p className="lg:mt-4 font-medium text-sm leading-7 text-orange-600">$100</p>
+                                                <p className="lg:mt-4 font-medium text-sm leading-7 text-primary">$100</p>
                                             </div>
                                         </div>
                                         <div className="col-span-5 lg:col-span-2 flex items-center max-lg:justify-center max-lg:mt-3">
@@ -148,7 +148,7 @@ export default function Payments () {
                         <div className="flex w-full flex-col sm:flex-row items-center max-lg:justify-center max-lg:border-b border-gray-200">
                             <p className="font-medium text-sm text-gray-900 py-3 max-lg:text-center">Paid using Credit Card <span className="text-gray-500">ending with 8822</span></p>
                         </div>
-                        <p className="font-semibold text-sm text-nowrap text-black py-6">Total Price: <span className="text-orange-600"> $100.00</span></p>
+                        <p className="font-semibold text-sm text-nowrap text-black py-6">Total Price: <span className="text-primary"> $100.00</span></p>
                     </div>
                 </div>
             </div>

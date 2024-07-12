@@ -4,8 +4,8 @@ function AudioMessage({ isSent, audio, userName, time }) {
   return (
     <div className="mb-5">
       <div className="flex flex-row items-center">
-        <div className="flex items-center justify-center text-sm bg-slate-100 w-fit rounded-t-2xl rounded-r-2xl py-4 px-6 mb-3">
-                <button className="flex items-center justify-center bg-orange-600 text-white hover:bg-orange-700 animate rounded-full h-8 w-10">
+        <div className="flex items-center justify-center text-sm bg-slate-100 w-fit rounded-t-2xl rounded-r-2xl py-2 px-4 mb-2">
+                <button className="flex items-center justify-center bg-primary text-white hover:bg-orange-700 animate rounded-full h-8 w-10">
                     <svg
                         className="w-6 h-6 text-white"
                         fill="none"
@@ -31,12 +31,12 @@ function AudioMessage({ isSent, audio, userName, time }) {
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-4 w-1 bg-gray-500 rounded-lg"></div>
+                    <div className="h-6 w-1 bg-gray-500 rounded-lg"></div>
+                    <div className="h-6 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-8 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-8 w-1 bg-gray-500 rounded-lg"></div>
-                    <div className="h-10 w-1 bg-gray-500 rounded-lg"></div>
-                    <div className="h-10 w-1 bg-gray-500 rounded-lg"></div>
-                    <div className="h-12 w-1 bg-gray-500 rounded-lg"></div>
-                    <div className="h-10 w-1 bg-gray-500 rounded-lg"></div>
+                    <div className="h-6 w-1 bg-gray-500 rounded-lg"></div>
+                    <div className="h-8 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-6 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-5 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-4 w-1 bg-gray-500 rounded-lg"></div>
@@ -44,16 +44,16 @@ function AudioMessage({ isSent, audio, userName, time }) {
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
-                    <div className="h-10 w-1 bg-gray-500 rounded-lg"></div>
+                    <div className="h-8 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
-                    <div className="h-10 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-8 w-1 bg-gray-500 rounded-lg"></div>
-                    <div className="h-8 w-1 bg-gray-500 rounded-lg"></div>
+                    <div className="h-6 w-1 bg-gray-500 rounded-lg"></div>
+                    <div className="h-6 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-1 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-1 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
-                    <div className="h-8 w-1 bg-gray-500 rounded-lg"></div>
-                    <div className="h-8 w-1 bg-gray-500 rounded-lg"></div>
+                    <div className="h-6 w-1 bg-gray-500 rounded-lg"></div>
+                    <div className="h-6 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
                     <div className="h-2 w-1 bg-gray-500 rounded-lg"></div>
@@ -62,9 +62,9 @@ function AudioMessage({ isSent, audio, userName, time }) {
                 </div>
         </div>
       </div>
-      <div className="flex gap-4">
-          <p className="font-bold text-sm mb-3">{userName}</p>
-          <p className="text-sm mb-3 text-gray-400">{time}</p>
+      <div className="flex items-center gap-3">
+          <p className="font-semibold text-xs mb-3">{userName}</p>
+          <p className="text-xs mb-3 text-gray-400">{time}</p>
       </div>
     </div>
   )
