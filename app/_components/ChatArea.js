@@ -61,26 +61,26 @@ function ChatArea() {
             "I'm a Full Stack Engineer looking for opportunities to work in a team and build world class product.",
             "Resume attached above"
             ]}
-            time="10:03 AM"
+            time="10:04 AM"
         />
         <TextMessageSent
-            userName="Kapil Yadav"
+            userName="You"
             messagesArray={[
             "Let's have a word with you over a meeting by 5:30 PM today.",
             "Prior to that I'm providing you a UI task to complete before the meeting.",
             "https://www.figma.com/design/1PsDL6m6lgnCK9Fs6x1fUX/Job-preview-dashboard?node-id=0-1&t=BJHbP5c7XvExFaPL-0"
             ]}
-            time="10:16 AM"
+            time="10:10 AM"
         />
         <ImageMessage
             imagesArray={[{ url: Image1 }, { url: Image3 }]}
             userName="Kapil Yadav"
-            time="10:04 AM"
+            time="10:12 AM"
         />
         <TextMessageReceived
             userName="Kapil Yadav"
             messagesArray={["Sure, how about using these vector images in the task."]}
-            time="11:30 AM"
+            time="10:12 AM"
         />
         <AudioMessage
             userName="Kapil Yadav"
